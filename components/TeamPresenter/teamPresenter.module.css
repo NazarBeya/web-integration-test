@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+.icon-size { 
+    width: 48px;
+    height: 48px;
+}
+
+.container {
+    gap: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.label {
+    width: 163px;
+    color:  #FFF;
+    font-family: 'Asap', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px; 
+}

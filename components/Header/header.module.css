@@ -1,0 +1,18 @@
+.header {
+  height: 60px;
+  background-color: #262C3A; 
+  border-bottom: 1px solid #587481; 
+}
+
+.social-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 122px 0px 122px;
+}

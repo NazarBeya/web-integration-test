@@ -1,0 +1,55 @@
+.team-icon-container {
+    display: flex;
+    width: 76px;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.active-icon {
+    border-radius: 60px;
+    background: linear-gradient(#FCE33E, #BC7824);
+    padding: 4px;
+}
+
+.inactive-icon {
+    border-radius: 60px;
+    border: 1px solid  #587481;
+    background:  #262C3A;
+}
+
+.active-unborder{
+    background:  #262C3A;
+    border-radius: 60px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.rectangle {
+    width: 8px;
+    height: 20px;
+    border-radius: 0px 8px 8px 0px;
+    background:  #587481;
+}
+
+.icon-size { 
+    width: 40px;
+    height: 40px;
+}

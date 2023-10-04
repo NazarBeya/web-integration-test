@@ -1,0 +1,44 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+.container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.icon-size {
+    width: 24px;
+    height: 24px;   
+    position: relative;
+    z-index: 1;
+}
+
+.value-container { 
+    display: inline-flex;
+    padding: 4px 4px 4px 8px;
+    align-items: flex-start;
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid #587481;
+    background: #2A3141;
+    position: relative;
+    left: -7px;
+    z-index: 0;
+}
+
+.value {
+    color:  #FFF;
+    text-align: center;
+    font-family: 'SF Pro Display', sans-serif;                     
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.408px;
+}
+
+.plus-container {
+    position: absolute;
+    left: 15px;
+    top: -8px;
+    z-index: 2;
+}

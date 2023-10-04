@@ -1,0 +1,12 @@
+.sidenav {
+    display: flex;
+    width: 102px;
+    height: 100%;
+    padding: 28px 26px 0px 0px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 12px;
+    align-self: stretch;
+
+    background-color: #262C3A;
+}

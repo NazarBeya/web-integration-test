@@ -1,0 +1,20 @@
+.icon-size { 
+    width: 32px;
+    height: 32px;
+}
+
+.container {
+    gap: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    color: #84F7D8;
+    font-family: 'Asap', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.15px;
+}
