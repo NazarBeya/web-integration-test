@@ -5,6 +5,7 @@ import LevelBar from './LevelBar';
 import UserResources from './UserResources';
 import Avatar from '@/assets/teamsIcon/Avatar.png';
 
+// render user info window on sidebar
 export default function UserCasement() {
   return (
     <div className={styles['container']}>

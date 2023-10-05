@@ -12,12 +12,12 @@ export default function MenuNavigationBar() {
           ...item,
           isActive: item.id === id,
         }));
-        setItems(updatedComponents);
+        setItems(updatedComponents); // set what bar is active
     };
     
     return (
         <div className={styles['container']}>
-            {items.map((item) => (
+            {items.map((item) => ( //render navigations bars  
             item.isActive ? (
                 <MenuItem key={item.id} isActive={item.isActive} label={item.label} icon={item.iconActive} onClick={() => handleClick(item.id)}/>
             ) : (

@@ -5,11 +5,9 @@
     flex-direction: column;
     align-self: stretch;
     padding: 36px 10px 36px 10px;
-
     border-left: 1px solid #587481;
     border-right: 1px solid #587481;
     background-color: #262C3A;
-
     justify-content: space-between;
 }
 

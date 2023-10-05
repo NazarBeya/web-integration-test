@@ -6,6 +6,7 @@ import GameCurrency from '../GameCurrency/GameCurrency'
 // import Sapphife from '@/assets/resourceIcon/Sapphire.png'
 import { CoinIcon, SapphireIcon, SoulIcon } from '@/desingSystem'
 
+// render user money
 export default function UserResources() {
   const soulStyle = {
     top: '-10px',

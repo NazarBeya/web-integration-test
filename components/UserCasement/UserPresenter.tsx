@@ -5,7 +5,7 @@ interface Props {
   image: string
   label: string
 }
-
+// user avatar + name component
 export default function UserPresenter({image,label}:Props) {
 return (
   <div className={styles['container']}>

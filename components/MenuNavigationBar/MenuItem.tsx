@@ -9,6 +9,7 @@ interface Props {
     onClick?: React.MouseEventHandler<HTMLDivElement> 
 }
 
+// navigation bar item icon + label
 export default function MenuItem({icon,label,isActive, onClick}:Props) {
     const Active = isActive || false
     return (

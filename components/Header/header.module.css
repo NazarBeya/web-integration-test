@@ -2,6 +2,8 @@
   height: 60px;
   background-color: #262C3A; 
   border-bottom: 1px solid #587481; 
+  width: 100%;
+  position: fixed;
 }
 
 .social-container {
@@ -15,4 +17,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 12px 122px 0px 122px;
+}
+
+.icon-container {
+  cursor: pointer;
 }

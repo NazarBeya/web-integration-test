@@ -6,6 +6,7 @@ interface Props {
     label: string
 }
 
+// team logo + name in sidebar
 export default function TeamPresenter({image,label}:Props) {
   return (
     <div className={styles['container']}>

@@ -3,6 +3,7 @@ import { Quests, Adventure, Leaderboard, Shop, Club, Notifications } from "@/des
 const ActiveColor = "#262C3A";
 const InActiveColor = "#84F7D8";
 
+// array of bars of navigation menu in sidebar 
 export const navigationsArr = [
     { id: 1, label: "Quests" , isActive: true, iconActive: Quests(ActiveColor),iconInactive: Quests(InActiveColor)},
     { id: 2, label: "Adventure" , isActive: false, iconActive: Adventure(ActiveColor),iconInactive: Adventure(InActiveColor)},

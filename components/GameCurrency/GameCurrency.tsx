@@ -9,6 +9,7 @@ interface Props {
     iconStyle?: CSSProperties
 }
 
+// component for resource icon + value
 export default function GameCurrency({icon,value,iconStyle}:Props) {
     return (
     <div className={styles['container']}>

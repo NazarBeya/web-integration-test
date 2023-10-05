@@ -4,6 +4,7 @@ import MenuItem from '../MenuNavigationBar/MenuItem'
 
 import React from 'react'
 
+// account management in the sidebar
 export default function MenuAccountSettings() {
   return (
     <div className={styles['container']}>

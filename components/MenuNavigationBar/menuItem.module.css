@@ -6,6 +6,7 @@
     align-items: center;
     gap: 8px;
     align-self: stretch;
+    cursor: pointer;
 }
 .icon-size {
     width: 24px;

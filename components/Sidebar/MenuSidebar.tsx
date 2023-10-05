@@ -18,26 +18,28 @@ export default function MenuSidebar() {
 
 
   const search = params.get('team') || navigationsArr[0].label
-
+  // team presenter update on team change
   useEffect(()=>{
-    const urlParams=new URLSearchParams(params)
-    if(search===null || search===navigationsArr[0].label){
+    const urlParams = new URLSearchParams(params)
+    if(search === null || search === navigationsArr[0].label){
       urlParams.set("team",navigationsArr[0].label)
       router.push("?"+urlParams.toString())
     }
   },[params])
 
   const id = navigationsArr.find((team)=>team.label === search)?.id 
-  const index = id ? id-1:0
-
+  const index = id ? id-1 : 0
+  //render sibebar menu
   return (
     <div className={styles.sidenav}>
       <div className={styles['user-interface']}>
+        {/* user navigation menu */}
         <TeamPresenter image={navigationsArr[index]?.image.src} label={navigationsArr[index]?.label}/>
         <UserCasement/>
         <MenuNavigationBar/>
       </div>
       <div>
+        {/* bottom of sidebar*/}
         <MenuAccountSettings/>
       </div>
     </div>

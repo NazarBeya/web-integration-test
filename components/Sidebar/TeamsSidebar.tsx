@@ -9,30 +9,20 @@ import Link from 'next/link';
 
 
 export default function TeamsSidebar() {
-    // const [teams, setTeams] = useState(navigationsArr);
 
     const params = useSearchParams()
-    const search = params.get('team') || navigationsArr[0].label
-
-    // const handleClick = (id: number) => {
-    //     const updatedComponents = teams.map((team) => ({
-    //       ...team,
-    //       isActive: team.id === id,
-    //     }));
-    //     setTeams(updatedComponents);
-    // };
+    const search = params.get('team') || navigationsArr[0].label //get active item
 
     return (
         <div className={styles.sidenav}>
-        {navigationsArr.map((team) => (
-            <Link href={`?team=${team.label}`} key={team.id}>
-                <TeamIcon
-                image={team.image.src}
-                isActive={team.label===search}
-                // onClick={() => handleClick(team.id)}
-                />
-            </Link>
-        ))}
+            {navigationsArr.map((team) => (
+                <Link href={`?team=${team.label}`} key={team.id}> {/* render sidebar teams icons */}
+                    <TeamIcon
+                    image={team.image.src}
+                    isActive={team.label===search} 
+                    />
+                </Link>
+            ))}
         </div>
     )
 }
