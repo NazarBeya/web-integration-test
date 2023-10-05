@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('/web-integration-test/assets/fonts/SFProText-Regular.ttf') format('truetype');
+}   
 
 .container{
     display: flex;
@@ -15,7 +18,7 @@
 
 .inactive-label{
     color:  #84F7D8;
-    font-family: 'Asap', sans-serif;
+    font-family: 'SF Pro Text', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -25,7 +28,7 @@
 
 .active-label{
     color:  #262C3A;
-    font-family: 'Asap', sans-serif;
+    font-family: 'SF Pro Text', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
