@@ -9,6 +9,7 @@
     border-right: 1px solid #587481;
     background-color: #262C3A;
     justify-content: space-between;
+    overflow-y: auto;
 }
 
 .user-interface {
